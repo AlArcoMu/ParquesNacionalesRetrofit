@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ParquesNacionalesRetrofit" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/azuloscuro</item>
+        <item name="toolbarStyle">@style/MyToolbar</item>
+    </style>
+
+    <style name="Theme.ParquesNacionalesRetrofit" parent="Base.Theme.ParquesNacionalesRetrofit" />
+    <style name="MyToolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="titleTextColor">@color/azulclaro</item>
+    </style>
+
+</resources>
